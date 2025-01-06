@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+marquee {
+  text-decoration: dotted;
+  color: white;
+  background-color: #3c3d37;
+  font-family: cursive;
+  font-weight: 800;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 230px;
+  width: 430px;
+}
+#c {
+  position: bottom;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+}
+#g {
+  position: bottom;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}

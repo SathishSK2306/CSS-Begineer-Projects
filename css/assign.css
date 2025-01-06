@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+.nav {
+  color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  word-spacing: 1em;
+  text-shadow: 6px 2px 4px gray;
+}
+.img {
+  height: 700px;
+  width: 90vw;
+  background-image: url(/cover1.jpg);
+  background-repeat: no-repeat;
+  background-size: 90vw 700px;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-align: justify;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  text-indent: 8em;
+}
+p::first-letter {
+  font-size: 2em;
+}
+.move1 {
+  height: 70vh;
+  width: 98vw;
+  background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/10F7E/production/_84520596_gettyimages-478637974-1.jpg);
+  background-size: 98vw 70vh;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+}
+.move2 {
+  height: 70vh;
+  width: 98vw;
+  color: white;
+  display: flex;
+  text-align: justify;
+  background-image: url(https://www.mtu.edu/mechanical-aerospace/aerospace-engineering/images/aerospace-engineering-banner2400.jpg);
+  background-size: 98vw 70vh;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+}

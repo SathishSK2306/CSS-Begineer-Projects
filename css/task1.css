@@ -1,0 +1,21 @@
+/* body {
+  background-color: black;
+  background-image: url(/blog-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+} */
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+#img {
+  height: 600px;
+  width: 650px;
+  background-image: url(/blog-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 650px 600px;
+  overflow-y: scroll;
+}
+
+/* it's used to the image is fixed but the content is movable!  */

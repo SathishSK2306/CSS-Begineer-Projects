@@ -1,0 +1,99 @@
+body {
+  background-color: #c1c2c4;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  letter-spacing: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
+}
+.main {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+.img {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  background-position: center left;
+  background-size: 200px 400px;
+  padding: 30px 50px;
+}
+.side {
+  height: 360px;
+  width: 803px;
+  background-color: #94b0e5;
+  color: #101820;
+  background-position: 100px;
+  background-size: 100vw 400px;
+  padding: 0px 20px 40px 20px;
+  margin: 30px 40px 20px 20px;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+p {
+  text-align: justify;
+  /* word-spacing: 3px; */
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-indent: 5em;
+  cursor: default;
+}
+p::first-letter {
+  font-size: 1.5em;
+}
+button {
+  height: 30px;
+  width: 150px;
+  border-radius: 0.5em;
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  word-spacing: 0.3em;
+  letter-spacing: 0.3em;
+  margin-left: 320px;
+  cursor: pointer;
+  box-shadow: 4.6px 9.3px 9.3px hsl(0deg 0% 0% / 0.36);
+  transition-duration: 0.3s;
+}
+button:hover {
+  background-color: #133168;
+}
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.3em;
+  text-shadow: 2px 4px 2px gray;
+}
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.3em;
+  font-size: 30px;
+  text-shadow: 6px 2px 4px rgb(29, 27, 27);
+}
+.img2 {
+  height: 900px;
+  width: 100%;
+  background-image: url(/h1.jpg), url(/h2.jpg), url(/h3.jpg), url(/h4.jpg),
+    url(/h5.jpg), url(/h6.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
+  background-position: top left, 602px 0px, top right, 402px 300px, left, right;
+  background-size: 700px 300px, 500px 300px, 400px 300px, 500px 300px,
+    400px 300px, 600px 300px;
+  margin-top: 60px 20px 0px 20px;
+}
+.last {
+  align-items: center;
+  margin: 680px 670px;
+  border-width: 0.2em;
+  border-color: black;
+}
